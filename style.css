@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,700;0,800;1,800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.parent{
+    height: 100vh;
+    width: 100%;
+   background:  linear-gradient(to bottom, rgba(55, 56, 56, 0.52), rgba(53, 52, 53, 0.73)),
+   url("marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.child{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(29, 25, 25);
+    font-family: 'Anton';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px ;
+
+    
+}
+input{
+    height: 30px;
+    width: 250px;
+    border: none;
+    margin-top: 10px;
+    background-color: rgb(70, 60, 60);
+    color: whitesmoke;
+}
+
+label{
+   
+    color: white;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(43, 40, 40);
+    color: white;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    
+}
